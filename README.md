@@ -48,10 +48,12 @@ user-management-system/
    cd Crud-Operations-using-Node-js-and-express
 
 
-2. install dependencies
+2. install dependencies:
+    ```bash
     npm install
 
 3. Create a .env file in the root directory and add your database configuration:
+    ```bash
     HOST=your_database_host
     USER=your_database_user
     PASSWORD=your_database_password
@@ -59,6 +61,7 @@ user-management-system/
     PORT=5000
 
 4. Set up your MySQL database:
+    ```bash
         CREATE TABLE login.users (
         id INT AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
@@ -69,6 +72,7 @@ user-management-system/
 
 5. Running the Application
 To start the server, run the following command:
+    ```bash
     npm start
 
 The application will be running at http://localhost:5000.
